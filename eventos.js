@@ -2,12 +2,12 @@
 
 //VERIFICAR IDADE
 
-let idadeCadastro = 17
+let idadeCadastro = 18
 
 if(idadeCadastro >= 18) {
-    console.log("Maior que 18, cadastro permitido!")
+    console.log("Idade igual ou superior a 18 anos, cadastro permitido!")
 } else {
-    console.log("Idade inferior a 18, cadastro não permitido")
+    console.log("Idade inferior a 18 anos, cadastro não permitido")
 }
 
 //VERIFICAR DATA
@@ -33,4 +33,16 @@ if(totalParticipantes <= 100){
     console.log("Quantidade de participantes inferior ou igual a 100, cadastro permitido!")
 } else {
     console.log("Quantidade de participantes ultrapassada, cadastro não permitido!")
+}
+
+//VERIFICAR QUANTIDADE PALESTRANTES
+
+let totalPalestrantes = 20
+
+console.log("Quantidade de palestrantes inscritos até o momento:", totalPalestrantes)
+
+if (totalPalestrantes <= 20) {
+  console.log("Quantidade de palestrantes não atingida, cadastro permitido!")
+} else {
+  console.log("Quantidade de participantes excedida, cadastro não permitido!")
 }
