@@ -31,7 +31,7 @@ if (dataEvento > + hoje) {
   alert('Data do evento inferior a atual, cadastro não permitido!')
 }
 
-//VERIFICAR QUANTIDADE PARTICIPANTES
+//VERIFICAR A QUANTIDADE PARTICIPANTES
 
 let totalParticipantes = document.getElementById("participantes").value;
 
